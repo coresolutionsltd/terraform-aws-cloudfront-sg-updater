@@ -9,7 +9,7 @@
 
 A Terraform module to automatically update Security Group ingress rules with the latest public Cloudfront IP ranges.
 
-This module is based on this [AWS blog post](https://aws.amazon.com/blogs/security/how-to-automatically-update-your-security-groups-for-amazon-cloudfront-and-aws-waf-by-using-aws-lambda/), see the original blog post on steps on how to test the lambda function.
+This module is based on this [AWS blog post](https://aws.amazon.com/blogs/security/how-to-automatically-update-your-security-groups-for-amazon-cloudfront-and-aws-waf-by-using-aws-lambda/), see the original blog post for steps on how to test the lambda function.
 
 The lambda function uses tags to identify security groups it needs to update, the following are the three required tags:
 
@@ -26,7 +26,7 @@ The lambda function uses tags to identify security groups it needs to update, th
 ```sh
 module "cloudfront-sg-updater" {
     source  = "coresolutions-ltd/cloudfront-sg-updater/aws"
-    version = "~> 0.0.1"
+    version = "~> 0.0.2"
 }
 ```
 
