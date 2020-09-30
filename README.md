@@ -19,8 +19,6 @@ The lambda function uses tags to identify security groups it needs to update, th
 | AutoUpdate | true                             |
 | Protocol   | `http` or `https`                |
 
-|
-
 > Note you may need to [increase your SG rule quota](https://aws.amazon.com/premiumsupport/knowledge-center/increase-security-group-rule-limit/) if you have not done so previously.
 
 ## Getting Started
