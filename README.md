@@ -26,7 +26,7 @@ The lambda function uses tags to identify security groups it needs to update, th
 ```sh
 module "cloudfront-sg-updater" {
     source  = "coresolutions-ltd/cloudfront-sg-updater/aws"
-    version = "~> 0.0.2"
+    version = "~> 0.0.3"
 }
 ```
 
